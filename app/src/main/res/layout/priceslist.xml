@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/statement"
+            android:textSize="10dp"
+            android:textStyle="bold"
+           android:paddingBottom="05dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/numbers"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:background="@drawable/stopwatch"
+            android:layout_alignParentRight="true"
+            android:id="@+id/imageViewStatus"
+            android:layout_marginTop="4dp"
+            android:layout_width="20dp"
+            android:layout_height="15dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

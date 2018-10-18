@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">JIPANGE</string>
+    <string-array name="Transport">
+        <item >Private car</item>
+        <item >Public car</item>
+        <item >Train</item>
+        <item >Bicycle</item>
+        <item >Bike</item>
+        <item >Ship</item>
+        <item >Flight</item>
+    </string-array>
+    <string-array name="period">
+        <item>days</item>
+        <item>weeks</item>
+        <item>months</item>
+        <item>years</item>
+    </string-array>
+    <string-array name="rate">
+        <item>per day</item>
+        <item>per week</item>
+        <item>per month</item>
+        <item>per year</item>
+    </string-array>
+    <string-array name="Meal">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>In between</item>
+    </string-array>
+    <string-array name="Drinks">
+        <item>Soda</item>
+        <item>Water</item>
+        <item>Juice</item>
+        <item>Milk</item>
+        <item>Tea</item>
+        <item>Coffee</item>
+        <item>Beer</item>
+        <item>Wine</item>
+        <item>Vodka</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="Clothes">
+        <item>T-shirt</item>
+        <item>Shirt</item>
+        <item>Jeans</item>
+        <item>Shoes</item>
+        <item>Hand-bag</item>
+        <item>Socks</item>
+        <item>Jackets</item>
+        <item>Dress</item>
+        <item>Suits</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="Bills">
+        <item>Water</item>
+        <item>Electricity</item>
+        <item>Medical</item>
+        <item>Rent</item>
+        <item>Business</item>
+        <item>Airtime</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="Food">
+        <item>Meal</item>
+        <item>Snack</item>
+    </string-array>
+    <string-array name="FIELD">
+        <item>Transport</item>
+        <item>Food and Snacks</item>
+        <item>Drinks</item>
+        <item>Shopping</item>
+        <item>Bill</item>
+        <item>Clothes</item>
+        <item>Electronics</item>
+        <item>Others</item>
+    </string-array>
+    //welcome
+    <string name="slide_1_title">Welcome to Jipange</string>
+    <string name="slide_1_desc">Jipange provides a platform for users to record and monitor their expenditures.</string>
+    //slide 2
+    <string name="slide_2_title">Graphs</string>
+    <string name="slide_2_desc">Check on the graphs to have a clear view of your expenditure level.</string>
+    //slide 3
+    <string name="slide_3_title">Accounts</string>
+    <string name="slide_3_desc">Save your record online for future reference in the backup section in the menu.</string>
+    //slide 4
+    <string name="slide_4_title">History</string>
+    <string name="slide_4_desc">View your records based on both date and fields.</string>
+
+    <string name="my_preference">"com.abc.com.MyPref"</string>
+    <string name="my_preference_key">"com.abc.com.MyPrefKey"</string>
+</resources>

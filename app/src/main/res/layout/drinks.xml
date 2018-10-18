@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    android:background="@color/colorSlide_1"
+
+    >
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tool_bar"
+        android:background="@color/colorPrimary"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:drawableLeft="@drawable/back"
+            android:id="@+id/back"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Drinks"
+            android:textStyle="bold"
+            android:textColor="@color/white3"
+            android:textSize="15dp"
+            android:textAlignment="viewEnd"
+            android:layout_gravity="end"
+            />
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/drink1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Item's name"
+        android:inputType="text"
+        />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Categorise your drink."
+        android:textStyle="italic"
+        android:textSize="15dp"
+        android:layout_marginTop="40dp"
+        />
+    <Spinner
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/drink5"
+        android:textAlignment="viewEnd"
+        android:layout_gravity="end"
+        android:layout_margin="10dp"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/drink2"
+        android:layout_width="match_parent"
+        android:hint="Price :"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+
+        />
+    </LinearLayout>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/drink3"
+        android:layout_gravity="end"
+        android:layout_marginTop="70dp"
+        android:text="SAVE"
+        style="@style/button_style"
+        android:textStyle="italic"
+        android:textSize="30dp"
+        android:layout_marginBottom="110dp"
+        />
+</LinearLayout>
+    </ScrollView>

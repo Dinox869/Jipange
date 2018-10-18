@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    android:background="@color/colorSlide_1"
+
+    >
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tool_bar"
+        android:background="@color/colorPrimary"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shopping"
+            android:textStyle="bold"
+            android:textColor="@color/white3"
+            android:textSize="15dp"
+            android:textAlignment="viewEnd"
+            android:layout_gravity="end"
+            />
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+    <EditText
+        android:id="@+id/shopping1"
+        android:layout_width="match_parent"
+        android:hint="Item's name"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:orientation="horizontal"
+        >
+    <EditText
+        android:id="@+id/shopping2"
+        android:layout_width="match_parent"
+        android:hint="Price : "
+        android:layout_height="wrap_content"
+        android:layout_margin="01dp"
+        android:layout_gravity="end"
+        android:inputType="numberDecimal"
+        />
+    </LinearLayout>
+    <Button
+        android:id="@+id/shopping3"
+        style="@style/button_style"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="90dp"
+        android:text="SAVE"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+</LinearLayout>

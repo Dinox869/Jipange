@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white3"
+    >
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tool_bar"
+        android:background="@color/colorPrimary"
+        >
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Savings"
+            android:textStyle="bold"
+            android:textColor="@color/white3"
+            android:textSize="25dp"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start"
+            />
+
+        <com.nightonke.boommenu.BoomMenuButton
+            android:id="@+id/bmb"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            app:bmb_backgroundEffect="false"
+            app:bmb_buttonEnum="ham"
+            app:bmb_piecePlaceEnum="piecePlace_dot_3_4"
+            app:bmb_buttonPlaceEnum="buttonPlace_sc_3_4"
+            android:layout_gravity="top|right"
+            />
+    </android.support.v7.widget.Toolbar>
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:id="@+id/listview"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+</LinearLayout>

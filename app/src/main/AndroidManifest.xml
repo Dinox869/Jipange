@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dennis.jipange"
+    >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/letter"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/add"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <receiver android:name=".notification"/>
+        <activity android:name=".Transport"/>
+        <activity android:name=".food"/>
+        <activity android:name=".drinks"/>
+        <activity android:name=".clothes"/>
+        <activity android:name=".shopping"/>
+        <activity android:name=".add"/>
+        <activity android:name=".bills"/>
+        <activity android:name=".electronics"/>
+        <activity android:name=".graph"/>
+        <activity android:name=".history"/>
+        <activity android:name=".saf"/>
+        <activity android:name=".foodgraph"/>
+        <activity android:name=".date"/>
+        <activity android:name=".field"/>
+        <activity android:name=".profile"/>
+        <activity android:name=".contact"/>
+        <activity android:name=".allgraph"/>
+        <activity android:name=".drinkgraph"/>
+        <activity android:name=".saving_form"/>
+        <activity android:name=".populate_savings"/>
+        <activity android:name=".datefield"/>
+        <receiver android:name=".NetworkStateChecker">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+    </application>
+    <supports-screens android:resizeable="true"
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:anyDensity="true"
+        android:requiresSmallestWidthDp="120"
+        android:compatibleWidthLimitDp="320"
+        android:largestWidthLimitDp="320"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+
+</manifest>
